@@ -106,3 +106,25 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e9
 group have full access to the resource group.</summary>
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e96948c01478c53/3.4_verify.jpg
 </details>
+
+<details>
+<summary>Practical Task 4: Securing Sensitive Information with Azure Key Vault
+Set up Azure Key Vault to securely store and manage sensitive information such as keys, secrets, and
+certificates.  </summary>
+Requirements:
+<details>
+<summary>1. Create a new Azure Key Vault in your subscription.</summary>
+</details>
+<details>
+<summary>2. Add a secret to the Key Vault (e.g., a database connection string).</summary>
+
+</details>
+<details>
+<summary>3. Set access policies to grant the Application Developer role (assigned to the Developers group)
+permission to retrieve secrets from the Key Vault.</summary>
+
+</details>
+<details>
+<summary>4. Verify that only members of the Developers group can access the stored secret.</summary>
+
+</details>
