@@ -38,3 +38,8 @@ Requirements:
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/62d29113dfa93b8dd8d66af4afe36cf2e30e70fe/2.4_admin_groups.jpg
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/62d29113dfa93b8dd8d66af4afe36cf2e30e70fe/2.4_dev_groups.jpg
 </details>
+<details>
+<summary>5. Assign the Global Reader role to the Admins group. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/14fcb6ffc3602031d2080a8242ce1ce86c211bf6/2.5_ass_role.jpg
+</details>
+
