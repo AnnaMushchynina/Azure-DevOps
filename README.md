@@ -106,6 +106,7 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e9
 group have full access to the resource group.</summary>
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e96948c01478c53/3.4_verify.jpg
 </details>
+</details>
 
 <details>
 <summary>Practical Task 4: Securing Sensitive Information with Azure Key Vault
@@ -127,4 +128,5 @@ permission to retrieve secrets from the Key Vault.</summary>
 <details>
 <summary>4. Verify that only members of the Developers group can access the stored secret.</summary>
 
+</details>
 </details>
