@@ -89,17 +89,20 @@ Requirements:
 <details>
 <summary>1. Create a custom role named Resource Viewer with read-only permissions for a specific resource
 group.</summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/af3717519c1d0e8bb4d1c8e7e23e13b0df67549b/3.1_cust_role.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/af3717519c1d0e8bb4d1c8e7e23e13b0df67549b/3.1_read.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/af3717519c1d0e8bb4d1c8e7e23e13b0df67549b/3.1_scopes.jpg
 </details>
 <details>
 <summary>2. Assign the Resource Viewer role to the Developers group created earlier.</summary>
-
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e96948c01478c53/3.2_rw_dev.jpg
 </details>
 <details>
 <summary>3. Assign the built-in Contributor role to the Admins group for the same resource group.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e96948c01478c53/3.3_cont_adm.jpg
 </details>
 <details>
 <summary>4. Verify that members of the Developers group have only read access and members of the Admins
 group have full access to the resource group.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/d09b77531a00e717180642e81e96948c01478c53/3.4_verify.jpg
 </details>
