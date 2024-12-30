@@ -26,8 +26,10 @@ Requirements:
 -	Click Review + Create → Create.
 </details>
 <details>
-
 <summary>2. Add at least two users to the directory. </summary>
 ![2.2 users](https://github.com/AnnaMushchynina/Azure-DevOps/blob/25e4e88e4be6cb4e6c51530e658f72d51190d6ee/2.2_users.jpg)
 </details>
-
+<details>
+<summary>3. Create two groups named Developers and Admins. </summary>
+![2.3 groups]([https://github.com/AnnaMushchynina/Azure-DevOps/blob/25e4e88e4be6cb4e6c51530e658f72d51190d6ee/2.2_users.jpg](https://github.com/AnnaMushchynina/Azure-DevOps/blob/f8d2d72c105db59dd5b59311b285606b4e0de9bf/2.3_groups.jpg))
+</details>
