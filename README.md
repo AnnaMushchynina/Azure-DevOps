@@ -67,3 +67,27 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d1
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d11824306f1109f/2.4_verify.jpg
 </details>
 </details>
+
+<details>
+<summary>Practical Task 3: Implementing Role-Based Access Control (RBAC)
+Implement Role-Based Access Control (RBAC) in Azure to manage access to resources based on roles and
+ensure fine-grained access management.
+ </summary>
+Requirements:
+<details>
+<summary>1. Create a custom role named Resource Viewer with read-only permissions for a specific resource
+group.</summary>
+</details>
+<details>
+<summary>2. Assign the Resource Viewer role to the Developers group created earlier.</summary>
+
+</details>
+<details>
+<summary>3. Assign the built-in Contributor role to the Admins group for the same resource group.</summary>
+
+</details>
+<details>
+<summary>4. Verify that members of the Developers group have only read access and members of the Admins
+group have full access to the resource group.</summary>
+
+</details>
