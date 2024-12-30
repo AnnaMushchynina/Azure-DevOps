@@ -51,3 +51,19 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/14fcb6ffc3602031d2080a8242c
 Requirements:
 <details>
 <summary>1. Enable Single Sign-On (SSO) for your Microsoft Entra ID tenant. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ec3233d462b8ada5ea5da088d686b14bfef84cd/2.1_sso.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ec3233d462b8ada5ea5da088d686b14bfef84cd/2.1_sso_user.jpg
+</details>
+<details>
+<summary>2. Enforce Multi-Factor Authentication (MFA) for all users in the directory. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d11824306f1109f/2.2_mfa.jpg
+</details>
+<details>
+<summary>3. Configure conditional access policies to require MFA for high-risk sign-ins. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d11824306f1109f/2.3_con_acc.jpg
+</details>
+<details>
+<summary>4. Verify that SSO and MFA settings are correctly applied for the users.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d11824306f1109f/2.4_verify.jpg
+</details>
+</details>
