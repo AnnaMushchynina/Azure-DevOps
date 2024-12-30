@@ -61,6 +61,18 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d1
 <details>
 <summary>3. Configure conditional access policies to require MFA for high-risk sign-ins. </summary>
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/f3ded2c2e4da49adbba9fd4a4d11824306f1109f/2.3_con_acc.jpg
+  
+2.3.1 Go to Conditional Access
+   - Navigate to Security → Conditional Access → + New policy.
+     
+2.3.2 Create a Policy for High-Risk Sign-Ins
+ - Provide a name for the policy (e.g., "Require MFA for High-Risk Sign-Ins").
+- In the Assignments section:
+    - Users: Select all users or specific groups (e.g., Admins, Developers).
+    - Conditions: Enable Sign-in risk and set it to High.
+- In the Access controls section:
+    - Select Grant → Require multi-factor authentication.
+- Click Enable policy → Create.
 </details>
 <details>
 <summary>4. Verify that SSO and MFA settings are correctly applied for the users.</summary>
