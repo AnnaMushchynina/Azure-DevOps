@@ -5,7 +5,7 @@ study repo
 
 ### Practical Task 1: Introduction to Microsoft Entra ID Create a basic Microsoft Entra ID setup for an organization to manage identity and access. 
 Requirements:
-<details open>
+<details>
 
 <summary>1.	Create a new Microsoft Entra ID tenant. </summary>
 
@@ -25,5 +25,9 @@ Requirements:
       
 -	Click Review + Create → Create.
 </details>
+<details>
 
+<summary>2. Add at least two users to the directory. </summary>
+![2.2 users](/2.2_users.jpg)
+</details>
 
