@@ -28,6 +28,6 @@ Requirements:
 <details>
 
 <summary>2. Add at least two users to the directory. </summary>
-![2.2 users](/2.2_users.jpg)
+![2.2 users](https://github.com/AnnaMushchynina/Azure-DevOps/blob/25e4e88e4be6cb4e6c51530e658f72d51190d6ee/2.2_users.jpg)
 </details>
 
