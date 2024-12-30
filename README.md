@@ -1,7 +1,8 @@
 # Azure-DevOps
 study repo
 
-2. Azure Identity and Access Management tasks
+Azure Identity and Access Management tasks
+
 Practical Task 1: Introduction to Microsoft Entra ID Create a basic Microsoft Entra ID setup for an organization to manage identity and access. Requirements: 
 1.	Create a new Microsoft Entra ID tenant. 
 1.1	Log in to the Azure Portal
@@ -12,8 +13,10 @@ Practical Task 1: Introduction to Microsoft Entra ID Create a basic Microsoft En
 -	In the left menu, click Manage tenants → + Create.
 -	Select Azure Active Directory and click Next.
 -	Fill in the details:
-	Organization name: (e.g., "MyOrganization").
-	Initial domain name: (e.g., "myorganization.onmicrosoft.com").
-	Region: Choose your geographical region.
+    - Organization name: (e.g., "MyOrganization").
+    - Initial domain name: (e.g., "myorganization.onmicrosoft.com")
+    - Region: Choose your geographical region.
 -	Click Review + Create → Create.
+
+
 
