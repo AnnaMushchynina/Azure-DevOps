@@ -2,13 +2,11 @@
 study repo
 
 # Azure Identity and Access Management tasks
-
-### Practical Task 1: Introduction to Microsoft Entra ID Create a basic Microsoft Entra ID setup for an organization to manage identity and access. 
+<details>
+<summary>Practical Task 1: Introduction to Microsoft Entra ID Create a basic Microsoft Entra ID setup for an organization to manage identity and access. </summary>
 Requirements:
 <details>
-
 <summary>1.	Create a new Microsoft Entra ID tenant. </summary>
-
 1.1	Log in to the Azure Portal
 -	Go to Azure Portal and log in with your Microsoft account.
   
@@ -39,7 +37,11 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/62d29113dfa93b8dd8d66af4afe
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/62d29113dfa93b8dd8d66af4afe36cf2e30e70fe/2.4_dev_groups.jpg
 </details>
 <details>
-<summary>5. Assign the Global Reader role to the Admins group. </summary>
+<summary>5. Assign the Global Reader role to the Admins group and 6. Assign the Application Developer role to the Developers group.  </summary>
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/14fcb6ffc3602031d2080a8242ce1ce86c211bf6/2.5_ass_role.jpg
 </details>
-
+<details>
+<summary>7. Verify that the role assignments function as expected for both groups.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/14fcb6ffc3602031d2080a8242ce1ce86c211bf6/2.7_verify.jpg
+</details>
+</details>
