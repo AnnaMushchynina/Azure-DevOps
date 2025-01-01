@@ -129,6 +129,7 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/b419c8f77ef8c02334e97cd1a45
 <details>
 <summary>4. Verify that only members of the Developers group can access the stored secret.</summary>
 https://github.com/AnnaMushchynina/Azure-DevOps/blob/b419c8f77ef8c02334e97cd1a4557f168da05540/4.4_verify.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/4.4_verify_err.jpg
 </details>
 </details>
 
@@ -140,19 +141,43 @@ Requirements:
 <details>
 <summary>1. Create an Azure Policy to enforce tagging for all newly created resources with a specific tag (e.g.,
 Environment: Development).</summary>
- 
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/5.1_add_policy.jpg
 </details>
 <details>
 <summary>2. Assign the policy to a resource group.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/5.2.1_basics.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/5.2.2_parameters.jpg
 </details>
 <details>
 <summary>3. Verify that any new resource created in the resource group without the required tag is marked as
 non-compliant.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/5.3_new_res.jpg
 </details>
 <details>
 <summary>4. Review and document the compliance status of the resource group.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/5.4_comp.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9e4fd4db7c3cf7dc225776a318500bf38e6ea7a5/5.4.1_comp_todo.jpg
+</details>
+</details>
 
+<details>
+<summary>Practical Task 6: Using Policy Effects to Enforce Compliance
+Configure Azure Policies with different policy effects to enforce compliance and manage resources
+according to organizational standards.</summary>
+Requirements:
+<details>
+<summary>1. Create a policy with the Audit effect to monitor and log untagged resources within a resource
+group.</summary>
+
+</details>
+<details>
+<summary>2. Create a policy with the DeployIfNotExists effect to automatically add a specific tag (Owner: IT) to
+any newly created resource.</summary>
+
+</details>
+<details>
+<summary>3. Assign these policies to a resource group and verify their behavior by:</summary>
+ - Creating a resource without a tag and checking the compliance logs.  
+ - Creating a resource to validate the automatic tag deployment.
 </details>
 </details>
