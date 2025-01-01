@@ -168,16 +168,18 @@ Requirements:
 <details>
 <summary>1. Create a policy with the Audit effect to monitor and log untagged resources within a resource
 group.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d9371404083e6a3a/6.1_add_policy_%D1%84%D0%B3%D0%B2%D1%88%D0%B5.jpg
 </details>
 <details>
 <summary>2. Create a policy with the DeployIfNotExists effect to automatically add a specific tag (Owner: IT) to
 any newly created resource.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d9371404083e6a3a/6.2_add_policy_own.jpg
 </details>
 <details>
 <summary>3. Assign these policies to a resource group and verify their behavior by:</summary>
- - Creating a resource without a tag and checking the compliance logs.  
- - Creating a resource to validate the automatic tag deployment.
+  - Creating a resource without a tag and checking the compliance logs.  
+  - Creating a resource to validate the automatic tag deployment.
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d9371404083e6a3a/6.3_verify.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d9371404083e6a3a/6.3.1_verify_own_tag.jpg
 </details>
 </details>
