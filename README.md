@@ -115,18 +115,44 @@ certificates.  </summary>
 Requirements:
 <details>
 <summary>1. Create a new Azure Key Vault in your subscription.</summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/b419c8f77ef8c02334e97cd1a4557f168da05540/4.1_create_kv.jpg
 </details>
 <details>
 <summary>2. Add a secret to the Key Vault (e.g., a database connection string).</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/b419c8f77ef8c02334e97cd1a4557f168da05540/4.2_create_sec.jpg
 </details>
 <details>
 <summary>3. Set access policies to grant the Application Developer role (assigned to the Developers group)
 permission to retrieve secrets from the Key Vault.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/b419c8f77ef8c02334e97cd1a4557f168da05540/4.3_ass_role_key.jpg
 </details>
 <details>
 <summary>4. Verify that only members of the Developers group can access the stored secret.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/b419c8f77ef8c02334e97cd1a4557f168da05540/4.4_verify.jpg
+</details>
+</details>
+
+<details>
+<summary>Practical Task 5: Creating and Assigning Basic Azure Policies
+Define and assign Azure Policies to enforce compliance with organizational standards for resource
+management.</summary>
+Requirements:
+<details>
+<summary>1. Create an Azure Policy to enforce tagging for all newly created resources with a specific tag (e.g.,
+Environment: Development).</summary>
+ 
+</details>
+<details>
+<summary>2. Assign the policy to a resource group.</summary>
+
+</details>
+<details>
+<summary>3. Verify that any new resource created in the resource group without the required tag is marked as
+non-compliant.</summary>
+
+</details>
+<details>
+<summary>4. Review and document the compliance status of the resource group.</summary>
 
 </details>
 </details>
