@@ -25,7 +25,7 @@ Requirements:
 </details>
 <details>
 <summary>2. Add at least two users to the directory. </summary>
-![Alt text](https://github.com/AnnaMushchynina/Azure-DevOps/blob/fde249bdc519212f393fc1d4d1a404446b0b02a5/1.2_users.jpg)
+![Alt text](https://raw.githubusercontent.com/AnnaMushchynina/Azure-DevOps/fde249bdc519212f393fc1d4d1a404446b0b02a5/1.2_users.jpg)
 </details>
 <details>
 <summary>3. Create two groups named Developers and Admins. </summary>
