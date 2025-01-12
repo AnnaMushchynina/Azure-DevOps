@@ -225,7 +225,37 @@ Protocol (RDP).</summary>
 Requirements:
 <details>
 <summary>1. Create a Windows VM (e.g., Windows Server 2019) in Azure using the free tier</summary>
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.1.1%20Basic_W.jpg
  </details>
+ <details>
+<summary>2. Enable and configure Remote Desktop Protocol (RDP) for secure access to the VM.</summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.2%20NSG_A_RDP.jpg
   </details>
-  
+  <details>
+<summary>3. Connect to the VM via RDP using Azure credentials.</summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.3.1%20RDP_dow.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.3.2%20RDP_con.jpg
+  </details>
+ <details>
+<summary>4. Install a web server role (IIS) and deploy a simple test HTML page.</summary>
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.4%20Inst_IIS.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.4.2%20IIS_testp.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.4.3%20open_80.jpg
+  </details>
+<details>
+<summary>5. Verify access to the test page from a browser.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4a33a751e7cfa098d24c4751424a32a108f7525d/2.5%20site_80_out.jpg
+  </details>  
+ 
+  </details>
+<details>
+<summary>Practical Task 3: Configuring an Azure Load Balancer.
+Create and configure a Basic Azure Load Balancer to distribute traffic across multiple virtual
+machines.</summary>
+Requirements:
+<details>
+<summary>1. Create two Linux or Windows virtual machines in the same region and virtual network using
+the Azure Free Tier.</summary>  
+</details>
+</details>
 </details>
