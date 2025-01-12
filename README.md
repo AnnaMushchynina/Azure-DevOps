@@ -1,7 +1,8 @@
 # Azure-DevOps
 study repo
-
-# Azure Identity and Access Management tasks
+<details>
+<summary>
+ Azure Identity and Access Management tasks</summary>
 <details>
 <summary>Practical Task 1: Introduction to Microsoft Entra ID Create a basic Microsoft Entra ID setup for an organization to manage identity and access. </summary>
 Requirements:
@@ -182,4 +183,22 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d93
   https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d9371404083e6a3a/6.3_verify.jpg
   https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d9371404083e6a3a/6.3.1_verify_own_tag.jpg
 </details>
+</details>
+</details>
+
+
+<details>
+<summary>Azure Compute Services Practical tasks</summary>
+<details>
+<summary>Practical Task 1: Linux Virtual Machine Setup and NSG Configuration</summary>
+Requirements: 
+<details>
+<summary> 1. Create a Linux VM (Ubuntu or CentOS) in Azure using the free tier. </summary>
+</details>
+</details>
+
+
+
+
+  
 </details>
