@@ -190,15 +190,42 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/7bb3b6330a39a0e73e02b042d93
 <details>
 <summary>Azure Compute Services Practical tasks</summary>
 <details>
-<summary>Practical Task 1: Linux Virtual Machine Setup and NSG Configuration</summary>
+<summary>Practical Task 1: Linux Virtual Machine Setup and NSG Configuration. Create and configure a Linux Virtual Machine (VM) on Azure and secure it with a Network Security
+Group (NSG).</summary>
 Requirements: 
 <details>
 <summary> 1. Create a Linux VM (Ubuntu or CentOS) in Azure using the free tier. </summary>
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.1.1%20Basic.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.1.2%20ssh.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.1.3%20net.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.1.4%20review.jpg
 </details>
+ <details>
+<summary> 2. Connect to the VM via SSH using a public-private key pair. </summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.2connect_ssh.jpg
 </details>
-
-
-
-
+ <details>
+<summary> 3. Install and configure an Nginx web server on the VM. </summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.3_install_nginx.jpg
+</details>
+ <details>
+<summary> 4. Create and configure a Network Security Group (NSG) to allow only HTTP (port 80) and SSH
+(port 22) traffic. </summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.4_nsq.jpg
+</details>
+ <details>
+<summary> 5. Test access to the Nginx web server from a browser. </summary>
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/13a1dab9d48d0c0b2b4607b19c0859eca23cceb8/1.5_test_nginx.jpg
+</details>
+ </details>
+<details>
+<summary>Practical Task 2: Windows Virtual Machine and RDP Access Setup.
+Set up a Windows Virtual Machine (VM) on Azure and configure access via Remote Desktop
+Protocol (RDP).</summary>
+Requirements:
+<details>
+<summary>1. Create a Windows VM (e.g., Windows Server 2019) in Azure using the free tier</summary>
+ </details>
+  </details>
   
 </details>
