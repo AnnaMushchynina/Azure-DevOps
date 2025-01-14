@@ -289,7 +289,41 @@ Requirements:
 <summary>1. Create a Virtual Machine Scale Set (VMSS) in Azure using Linux or Windows instances
 within the free tier (for example B1s size). Limit the scale set to two VM instances to avoid
 exceeding the free-tier 750-hour limit. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/4.1%20ScaleVM_1.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/4.1%20ScaleVM_2.jpg
+</details>
+<details>
+<summary>2. Deploy the scale set with a custom configuration to install and configure a web server (e.g.,
+Nginx on Linux or IIS on Windows) on each VM instance.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/4.2%20Script.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/script.sh
+</details>
+<details>
+<summary>3. Configure the Basic Load Balancer to distribute HTTP (port 80) traffic across the VM
+instances in the scale set.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/4.3%20LB.jpg
+</details>
+<details>
+<summary>4. Add a health probe to monitor the availability of instances in the VMSS. </summary>
+</details>
+<details>
+<summary>5. Scale the VMSS manually by increasing the number of instances to verify the Load Balancer
+routes traffic to the newly added VMs. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/4.5%20Scale.jpg
+</details>
+<details>
+<summary>6. Test the setup by accessing the Load Balancer's public IP address and verifying traffic
+distribution across multiple VM instances.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/52055fe6435207e4900f15b5c13271d3f2533f7b/4.6%20LB2VM.jpg
+</details>
+</details>
 
+<details>
+<summary>Practical Task 5: Deploying a Web Application Using Azure App Services.
+Set up and deploy a simple web application using Azure App Services.</summary>
+Requirements:
+<details>
+<summary>1. Create an Azure App Service (Web App) using the Azure Free Tier.</summary>
 
 </details>
 </details>
