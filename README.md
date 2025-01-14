@@ -256,6 +256,41 @@ Requirements:
 <details>
 <summary>1. Create two Linux or Windows virtual machines in the same region and virtual network using
 the Azure Free Tier.</summary>  
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.1%20LinuxVM2.jpg
+</details>
+ <details>
+<summary>2. Install and configure a web server (e.g., Nginx on Linux or IIS on Windows) on both VMs with
+unique content for testing.</summary>  
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.2%20LinuxVM_cont.jpg
+</details>
+ <details>
+<summary>3. Create a Basic Load Balancer in Azure (included in the free tier) and configure it to balance
+HTTP (port 80) traffic between the two virtual machines.</summary>  
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.3%20LB1.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.3%20LB2.jpg
+</details>
+ <details>
+<summary>4. Configure a health probe to monitor the availability of the VMs. </summary>  
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.4%20Probe.jpg
+</details>
+ <details>
+<summary>5. Test the Load Balancer by accessing its public IP address from a browser and verify that
+traffic is routed to both VMs (by observing the unique content from each server).</summary>  
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.5%20LB_UPVM1.jpg
+  https://github.com/AnnaMushchynina/Azure-DevOps/blob/e6635f317c09ea4175cb8ac390a7af24a63ddb3c/3.5%20LB_DownVM1.jpg  
+</details>
+</details>
+
+<details>
+<summary>Practical Task 4: Configuring a Basic Load Balancer with Virtual Machine Scale Sets (VMSS).
+Set up a Basic Azure Load Balancer to distribute traffic across a Virtual Machine Scale Set (VMSS).</summary>
+Requirements:
+<details>
+<summary>1. Create a Virtual Machine Scale Set (VMSS) in Azure using Linux or Windows instances
+within the free tier (for example B1s size). Limit the scale set to two VM instances to avoid
+exceeding the free-tier 750-hour limit. </summary>
+
+
 </details>
 </details>
 </details>
