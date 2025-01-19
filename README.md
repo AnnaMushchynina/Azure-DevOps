@@ -324,7 +324,34 @@ Set up and deploy a simple web application using Azure App Services.</summary>
 Requirements:
 <details>
 <summary>1. Create an Azure App Service (Web App) using the Azure Free Tier.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.1%20create%20webapp.jpg
+</details>
+<details>
+<summary>2. Select the runtime stack of your choice (e.g., .NET, Python, Node.js) during the setup.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.2%20runtime.jpg
+</details>
+<details>
+<summary>3. Develop or use a sample web application (e.g., a "Hello World" app) and deploy it to the App </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.3%20add_repo.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.3%20new_web_app.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.3%20new_web_app1.jpg
+</details>
+<details>
+<summary>4. Test the deployed application by accessing its URL provided by Azure App Services.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.4%20app%20deploy.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.4%20app%20inet.jpg
+</details>
+<details>
+<summary>5. Enable App Service Logs and verify that application logs are being generated.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.5%20service%20logs.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/9ead6f0a23104a6e6a0cc6955130729451b01f6a/5.5%20log%20stream.jpg
+</details>
+</details>
 
-</details>
-</details>
+<details>
+<summary>Practical Task 6: Creating and Deploying an Azure Function to Process HTTP Requests.
+Set up and deploy an Azure Function that processes HTTP requests directly from the Azure portal.</summary>
+Requirements:
+<details>
+<summary>1. Set Up the Function App:</summary>
 </details>
