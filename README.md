@@ -370,18 +370,71 @@ Requirements:
 </details>
 <details>
 <summary>2. Set up a Blob container named "my-container" with public access.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/1.2%20Create%20container.jpg
 </details>
 <details>
 <summary>3. Upload a sample text file to the Blob container using the Azure portal </summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/1.3%20add%20simple%20file.jpg
 </details>
 <details>
 <summary>4. Download the uploaded file to verify successful retrieval. </summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/1.4%20Download%20the%20uploaded.jpg
 </details>
 <details>
 <summary>5. Use Azure Storage Explorer to manage and view blobs in your container. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/1.5%20Azure%20Storage%20Explorer.jpg
+</details>
+</details>
+<details>
+<summary>Practical Task 2: Lifecycle Management for Blob Storage.
+Implement lifecycle management policies to optimize storage costs.</summary>
+Requirements:
+<details>
+<summary>1. Create a storage account and a Blob container named "lifecycle-container."</summary>
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/2.1%20Create%20a%20storage%20account.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/2.1%20Create%20a%20container.jpg
+</details>
+<details>
+<summary>2. Upload multiple files of varying sizes to the container</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/2.2%20Upload%20multiple%20files.jpg
+</details>
+<details>
+<summary>3. Create a lifecycle management policy to move blobs to the Cool tier after 30 days and
+delete blobs older than 90 days.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0705403959c343f1fae94a2e8f2d5935c198b2b9/2.3%20.%20Create%20a%20lifecycle.jpg
+</details>
+<details>
+<summary>4. Simulate policy execution by manually testing with different file creation timestamps</summary>
+
+</details>
+<details>
+<summary>5. Verify that blobs are moved or deleted according to the policy. </summary>
+
+</details>
+</details>
+<details>
+<summary>Practical Task 3: Implementing an Azure Queue for Message Storage
+Create and manage an Azure Queue to store and process messages.</summary>
+Requirements:
+<details>
+<summary>1. Create a storage account and enable the Queue service. </summary>
+
+</details>
+<details>
+<summary>2. Create a queue named "task-queue."</summary>
+
+</details>
+<details>
+<summary>3. Use Azure Storage Explorer or the Azure portal to add messages to the queue.</summary>
+
+</details>
+<details>
+<summary>4. Retrieve and process messages directly using Azure Storage Explorer or the Azure portal
+interface.</summary>
+
+</details>
+<details>
+<summary>5. Verify that processed messages are removed from the queue manually.</summary>
 
 </details>
 </details>
