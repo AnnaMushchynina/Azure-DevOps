@@ -422,19 +422,48 @@ Requirements:
 </details>
 <details>
 <summary>2. Create a queue named "task-queue."</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/3.2%20%20Create%20task-queue.jpg
 </details>
 <details>
 <summary>3. Use Azure Storage Explorer or the Azure portal to add messages to the queue.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/3.3%20add%20messages%20to%20the%20queue.jpg
 </details>
 <details>
 <summary>4. Retrieve and process messages directly using Azure Storage Explorer or the Azure portal
 interface.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/3.4%20Dequeue.jpg
 </details>
 <details>
 <summary>5. Verify that processed messages are removed from the queue manually.</summary>
+
+</details>
+</details>
+<details>
+<summary>Practical Task 4: Configuring Azure File Share and Mounting on a Local Machine.
+Set up and access Azure File Storage for shared file access.</summary>
+Requirements:
+<details>
+<summary>1. Create a storage account and set up an Azure File Share.</summary>
+
+</details>
+<details>
+<summary>2. Upload a file to the file share using the Azure portal.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/4.2%20file%20share.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/4.2.1%20upload%20file.jpg
+</details>
+<details>
+<summary>3. Generate a connection script for Windows or Linux and use it to mount the file share on your
+local machine.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/4.3%20generate%20connection%20script.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/4.3.1%20mount%20the%20file%20share.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/4.3.2%20disk%20Z.jpg
+</details>
+<details>
+<summary>4. Verify the mounted file share and ensure it displays the uploaded file. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e6458e409d27bee4/4.4%20file%20.jpg
+</details>
+<details>
+<summary>5. Add another file to the file share from the local machine and confirm it reflects in Azure.</summary>
 
 </details>
 </details>
