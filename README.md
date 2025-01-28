@@ -467,4 +467,169 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/4f49183cc0222021a77019b0e64
 
 </details>
 </details>
+
+<details>
+<summary>Practical Task 5: Storing and Querying Data with Azure Table Storage.
+Set up and use Azure Table Storage for structured data.</summary>
+Requirements:
+<details>
+<summary>1. Create a storage account and enable the Table service.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/5.1%20create%20table.jpg
+</details>
+<details>
+<summary>2. Create a table named "employee-data".</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/5.2%20ase.jpg
+</details>
+<details>
+<summary>3. Add sample data (e.g., employee IDs, names, and roles) to the table using Azure Storage
+Explorer or Azure CLI.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/5.3%20add%20date.jpg
+</details>
+<details>
+<summary>4. Query the table for specific data using filters (e.g., "Role = Developer").</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/5.4%20query.jpg
+</details>
+<details>
+<summary>5. Delete specific entries from the table and verify the changes.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/5.5%20delete.jpg
+</details>
+</details>
+
+<details>
+<summary>Practical Task 6: Configuring Shared Access Signatures (SAS) for Secure Access.
+Secure Azure Storage services using SAS tokens.</summary>
+Requirements:
+<details>
+<summary>1. Create a storage account with Blob, File, Queue, and Table services enabled.</summary>
+
+</details>
+<details>
+<summary>2. Generate a Shared Access Signature (SAS) token for Blob storage with limited permissions
+(e.g., read-only access).</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/6.2%20add%20file%20for%20container.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/6.2%20create%20shared%20acc%20sig.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/6.2.1%20generate%20connection%20string.jpg
+</details>
+<details>
+<summary>3. Share the SAS token URL and verify access to the Blob container with the token.</summary>
+
+</details>
+<details>
+<summary>4. Repeat the process for File, Queue, and Table services with different permissions.</summary>
+
+</details>
+<details>
+<summary>5. Analyze the security implications of SAS tokens and expiry times.</summary>
+
+</details>
+</details>
+
+<details>
+<summary>Practical Task 7: Implementing Security Best Practices with Azure RBAC and Managed
+Identities.
+Securely manage access to Azure resources and integrate services using Managed Identities.</summary>
+Requirements:
+<details>
+<summary>1. Configure Azure RBAC for a Storage Account:</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/7.1%20add%20Storage%20Blob%20Data%20Contributor%20role.jpg
+</details>
+<details>
+<summary>2. Set Up a Managed Identity for an Azure Virtual Machine:</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/7.2%20add%20role.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/7.2%20add%20VM.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/7.3%20add%20script.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/7.4%20show%20container%20with%20cli.jpg
+</details>
+</details>
+
+<details>
+<summary>Practical Task 8: Creating and Querying an Azure SQL Database.
+Learn to create and query an Azure SQL Database using the Azure portal.</summary>
+Requirements:
+<details>
+<summary>1. Create an Azure SQL Database named "test-db" in a new logical SQL server. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/8.1%20create%20test-db.jpg
+</details>
+<details>
+<summary>2. Set the pricing tier to the free tier for cost optimization.</summary>
+
+</details>
+<details>
+<summary>3. Use the Query Editor in the Azure portal to create a table named "Products" with columns
+for ID, Name, and Price.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/8.3%20create%20products.jpg
+</details>
+<details>
+<summary>4. Insert a few sample records into the "Products" table using a SQL query. </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/8.4%20insert%20products.jpg
+</details>
+<details>
+<summary>5. Query the table to display all records and verify the data.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/8.5%20show%20products.jpg
+</details>
+</details>
+
+<details>
+<summary>Practical Task 9: Deploying an Azure SQL Database with Automated Backup Configuration
+Set up an Azure SQL Database and configure automated backups.</summary>
+Requirements:
+<details>
+<summary>1. Create an Azure SQL Database in a new or existing resource group. </summary>
+
+</details>
+<details>
+<summary>2. Choose the desired service tier (e.g., Basic or General Purpose).</summary>
+
+</details>
+<details>
+<summary>3. Enable and configure long-term backup retention for the database</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/9.3%20enable%20long%20term.jpg
+</details>
+<details>
+<summary>4. Use the Azure portal to verify backup settings and review available restore points. </summary>
+
+</details>
+<details>
+<summary>5. Test the restore process by creating a new database from a backup. </summary>
+
+</details>
+</details>
+
+<details>
+<summary>Practical Task 10: Getting Started with Cosmos DB
+Set up and explore Cosmos DB by creating a database, managing data, querying, and testing key
+features like consistency and global distribution.</summary>
+Requirements:
+<details>
+<summary>1. Create a Cosmos DB Account: </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.1%20create%20cosmodb.jpg
+</details>
+<details>
+<summary>2. Set Up a Database and Container: </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.2%20create%20sample%20db.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.2.1%20create%20items.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.2.2%20add%20items.jpg
+</details>
+<details>
+<summary>3. Insert Data Using Data Explorer:</summary>
+
+</details>
+<details>
+<summary>4. Query Data in Cosmos DB: </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.4%20query.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.4.1%20query%20ele.jpg
+</details>
+<details>
+<summary>5. Configure and Test Consistency Levels: </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.5%20session.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.5.1%20session%20test.jpg
+</details>
+<details>
+<summary>6. Enable Global Distribution and Test Replication: </summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.6%20add%20region.jpg
+ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e919c31b197d86/10.6%20strong.jpg
+</details>
+
+</details>
+
 </details>
