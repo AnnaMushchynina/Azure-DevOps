@@ -633,3 +633,39 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/0d4d0194344ddb20dc3169cdd9e
 </details>
 
 </details>
+
+<details>
+<summary>Containerization and Orchestration Practical tasks</summary>
+<details>
+<summary>Practical Task 1: Deploy a Docker Container to Azure Container Instances (ACI) via Azure
+Portal</summary>
+Requirements:
+<details>
+<summary>1. Create a lightweight Docker image for a simple web application (e.g., a Python Flask app)
+with minimal dependencies to reduce resource usage.</summary>
+
+</details>
+<details>
+<summary>2. Push the Docker image to Azure Container Registry (ACR) using a low-cost storage option.</summary>
+
+</details>
+<details>
+<summary>3. Use a lightweight ACI instance (e.g., B1s) to deploy the Docker container from ACR.</summary>
+
+</details>
+<details>
+<summary>4. Verify the deployment by accessing the web application via the public IP address provided
+by ACI.</summary>
+
+</details>
+<details>
+<summary>5. Remove the ACI container after verifying the deployment to stop billing.</summary>
+
+</details>
+
+</details>
+</details>
+
+
+
+
