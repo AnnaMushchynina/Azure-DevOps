@@ -643,15 +643,17 @@ Requirements:
 <details>
 <summary>1. Create a lightweight Docker image for a simple web application (e.g., a Python Flask app)
 with minimal dependencies to reduce resource usage.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/1.1%20create%20flask%20app.jpg
 
 </details>
 <details>
 <summary>2. Push the Docker image to Azure Container Registry (ACR) using a low-cost storage option.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/1.2%20create%20container%20registry%20azure.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/1.2.1%20push%20the%20docker%20to%20azure.jpg
 </details>
 <details>
 <summary>3. Use a lightweight ACI instance (e.g., B1s) to deploy the Docker container from ACR.</summary>
-
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/1.3%20deploy%20the%20container%20to%20azure.jpg
 </details>
 <details>
 <summary>4. Verify the deployment by accessing the web application via the public IP address provided
@@ -664,6 +666,208 @@ by ACI.</summary>
 </details>
 
 </details>
+<details>
+<summary>Practical Task 2: Configure Environment Variables in ACI via Azure Portal</summary>
+Requirements:
+<details>
+<summary>1. Modify your Docker image to read configuration values from environment variables,
+ensuring minimal environmental complexity.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/2.1%20Modify%20docker%20image.jpg
+</details>
+<details>
+<summary>2. Reuse the ACI instance from Task 1 to deploy the container and specify the necessary
+environment variables.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/2.2%20%20deploy%20container.jpg
+</details>
+<details>
+<summary>3. Verify that the application is correctly using the environment variables by checking its
+output.</summary>
+
+</details>
+<details>
+<summary>4. Remove the ACI container after verifying that the application correctly uses the
+environment variables.</summary>
+
+</details>
+
+</details>
+<details>
+<summary>Practical Task 3: Scale Out with Azure Container Instances via Azure Portal</summary>
+Requirements:
+<details>
+<summary>1. Deploy a stateless Docker container to Azure Container Instances using a lightweight
+configuration (e.g., B1s instances).</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/3.1%20manually%20scale.jpg
+</details>
+<details>
+<summary>2. Manually scale out to the minimum number of instances required (e.g., 2–3) to test load
+distribution.</summary>
+
+</details>
+<details>
+<summary>3. Stop all ACI instances after completing the testing to reduce ongoing costs.</summary>
+
+</details>
+
+
+</details>
+<details>
+<summary>Practical Task 4: Secure a Docker Container in ACI with Managed Identity via Azure Portal</summary>
+Requirements:
+<details>
+<summary>1. Deploy a Docker container to Azure Container Instances using the existing lightweight ACI
+setup from previous tasks.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/4.1%20container%20principial.jpg
+</details>
+<details>
+<summary>2. Configure a Managed Identity for the ACI and securely access an Azure service (e.g., Azure
+Key Vault) with minimal permissions and access scope.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/4.2%20keyvaultrole.jpg
+</details>
+<details>
+<summary>3. Retrieve only a single secret from Azure Key Vault for testing purposes.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/4.3%20testing.jpg
+</details>
+<details>
+<summary>4. Remove the ACI container after verifying secure access.</summary>
+
+</details>
+
+</details>
+<details>
+<summary>Practical Task 5: Deploy a Kubernetes Cluster with AKS via Azure Portal</summary>
+Requirements:
+<details>
+<summary>1. Create an Azure Kubernetes Service (AKS) cluster with the smallest VM size (e.g., B2s) and
+the minimum number of nodes (e.g., 1–2).</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/5.1%20Create%20an%20Azure%20Kubernetes%20Service.jpg
+</details>
+<details>
+<summary>2. Connect to the AKS cluster using Azure Cloud Shell with kubectl.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/5.2%20Azure%20Cloud%20Shell%20with%20kubectl.jpg
+</details>
+<details>
+<summary>3. Deploy a lightweight Nginx application for verification.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/5.3%20deploy%20nginx.jpg
+</details>
+<details>
+<summary>4. Delete the AKS cluster immediately after testing to avoid additional VM and cluster costs.</summary>
+
+</details>
+
+</details>
+
+<details>
+<summary>Practical Task 6: Deploy a Containerized Application on AKS</summary>
+Requirements:
+<details>
+<summary>1. Build a lightweight Docker image for a simple web application (e.g., a Node.js app with
+minimal dependencies) and push it to Azure Container Registry (ACR).</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/6.1%20build%20docker%20image.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/6.1.2%20push%20to%20azure%20container.jpg
+</details>
+<details>
+<summary>2. Reuse the AKS cluster from Task 5 to deploy the application using a Kubernetes deployment
+and service manifest file.</summary>
+
+</details>
+<details>
+<summary>3. Test the application for a limited time and remove the deployment afterward.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/6.3%20test%20app.jpg
+</details>
+
+
+</details>
+
+<details>
+<summary>Practical Task 7: Configure and Use ConfigMaps and Secrets in AKS</summary>
+Requirements:
+<details>
+<summary>1. Create a ConfigMap to store non-sensitive configuration data with only the required keyvalue pairs for the application.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/7.1%20create%20config%20map.jpg
+</details>
+<details>
+<summary>2. Create a Kubernetes Secret to store sensitive data (e.g., API keys) with the least amount of
+information needed.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/7.2%20create%20secret.jpg
+</details>
+<details>
+<summary>3. Update the application deployment to use the ConfigMap and Secret.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/7.3%20update%20app.jpg
+</details>
+<details>
+<summary>4. Remove the ConfigMap, Secret, and deployment after testing.</summary>
+
+</details>
+
+</details>
+
+<details>
+<summary>Practical Task 8: Scale Applications in AKS</summary>
+Requirements:
+<details>
+<summary>1. Deploy a stateless application to the AKS cluster using minimal resource specifications.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/8.1%20deploy%20app.jpg
+</details>
+<details>
+<summary>2. Use the kubectl scale command to manually scale the application to only 2–3 replicas for
+testing.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/8.2%20scale.jpg
+</details>
+<details>
+<summary>3. Set up Horizontal Pod Autoscaler (HPA) with reasonable CPU usage thresholds to minimize
+pod creation.</summary>
+
+</details>
+<details>
+<summary>4. Simulate load on the application for a short duration and remove the deployment after
+observing the scaling behavior.</summary>
+
+</details>
+
+</details>
+
+<details>
+<summary>Practical Task 9: Rolling Update of an Application in AKS</summary>
+Requirements:
+<details>
+<summary>1. Deploy a lightweight version of your application to the AKS cluster.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/9.1%20node%20app.jpg
+</details>
+<details>
+<summary>2. Update the Docker image to a new version with minimal changes (e.g., color change).</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/9.2%20update%20app.jpg
+</details>
+<details>
+<summary>3. Perform a rolling update using kubectl set image with minimal replicas to reduce resource
+usage.</summary>
+
+</details>
+<details>
+<summary>4. Verify the update process quickly and remove the deployment after the update.</summary>
+
+</details>
+
+</details>
+
+<details>
+<summary>Bonus task. GitOps with AKS </summary>
+Requirements:
+<details>
+<summary>1. Setup ArgoCD on Azure Kubernetes Services</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/28b7858460ea6618927fd59575ba6109eaa8b6a9/10.1%20setup%20argoCD.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/2656c45ab30512e9c8d4d10f817cd4c729b51412/10.1.2%20connect%20argocd.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/2656c45ab30512e9c8d4d10f817cd4c729b51412/10.1.3%20add%20app%20to%20argocd.jpg
+</details>
+<details>
+<summary>2. Perform image update on cluster</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/2656c45ab30512e9c8d4d10f817cd4c729b51412/10.2%20update%20app.jpg
+
+</details>
+
+
+</details>
+
 </details>
 
 
