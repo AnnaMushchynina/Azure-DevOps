@@ -872,4 +872,82 @@ https://github.com/AnnaMushchynina/Azure-DevOps/blob/2656c45ab30512e9c8d4d10f817
 
 
 
+<details>
+<summary>Azure Cli and Azure PowerShell and Azure Automation Practical tasks</summary>
+<details>
+<summary>Practical Task 1: Install and Configure Azure CLI and PowerShell</summary>
+Requirements:
+<details>
+<summary>Install Azure CLI and Azure PowerShell on your local machine.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/1.1%20az%20cli.jpg
+</details>
+<details>
+<summary>Verify the installation by checking the versions of Azure CLI and PowerShell modules.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/1.2%20az%20login.jpg
+</details>
+<details>
+<summary>Log in to your Azure account using both Azure CLI and PowerShell.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/1.3%20ps%20az.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/1.3%20list%20sub%20az%20cli.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/1.3.2%20list%20sub%20ps.jpg
+</details>
+<details>
+<summary>List all available subscriptions in your Azure account using both tools</summary>
+
+</details>
+</details>
+<details>
+<summary>Practical Task 2: Create and Manage Resource Groups</summary>
+Requirements:
+<details>
+<summary>Use Azure CLI to create a new resource group named MyResourceGroup in the East US
+region.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/2.1%20az%20cli%20add%20RG.jpg
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/2.1%20ps%20add%20RG.jpg
+</details>
+<details>
+<summary>Use Azure PowerShell to create a new resource group named MyPSResourceGroup in the
+West Europe region.</summary>
+
+</details>
+<details>
+<summary>List all resource groups in your subscription using both CLI and PowerShell.</summary>
+
+</details>
+<details>
+<summary>Delete the resource group MyResourceGroup using Azure CLI.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/2.4%20del%20az%20cli%20RG.jpg
+</details>
+<details>
+<summary>Delete the resource group MyPSResourceGroup using Azure PowerShell.</summary>
+https://github.com/AnnaMushchynina/Azure-DevOps/blob/8a5349db520a3a4ffc91a250c89dc4d1a18df725/2.5%20del%20ps%20RG.jpg
+</details>
+
+</details>
+<details>
+<summary>Practical Task 3: Deploy and Manage Virtual Machines using Azure CLI and PowerShell</summary>
+Requirements:
+<details>
+<summary>Use Azure CLI to create a new virtual machine named MyVM1 in a new resource group
+VMResourceGroup.</summary>
+
+</details>
+<details>
+<summary>Use Azure PowerShell to create another virtual machine named MyVM2 in the same
+resource group</summary>
+
+</details>
+<details>
+<summary>Retrieve details about both virtual machines using both CLI and PowerShell.</summary>
+
+</details>
+
+
+</details>
+All next task's photo in jpg
+
+</details>
+
+
+
 
